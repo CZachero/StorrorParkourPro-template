@@ -2,7 +2,7 @@
 This is a template for modding STORROR Parkour Pro main open-world map. It has all the changes done to get started with your own map, so you can easily just package the *.pak patch files to override the main map.
 
 ## Getting Started
-* Download & Install Unreal Engine 5.5.* https://www.unrealengine.com/en-US/download
+* Download & Install Unreal Engine 5.6.* https://www.unrealengine.com/en-US/download
 * Download this template (Code -> Download ZIP)
 * Open `StorrorParkourPro.uproject` with Unreal Editor
 * Remove the example blockout and build your own
