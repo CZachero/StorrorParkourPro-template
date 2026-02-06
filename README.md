@@ -4,6 +4,8 @@ This is a guide to get started with map making for STORROR Parkour Pro. There ar
 
 Big shoutout to tarmo888 from whom I forked this repository. tarmo888 created the template for UE 5.5: https://github.com/tarmo888/StorrorParkourPro-template
 
+Another big shoutout to TheMightMage for his Mod Menu and his general work/help in the SPP modding community.
+
 # Prerequisites
 
 Before starting work on a custom map, you will need Unreal Engine installed. Currently, the game uses 5.6, and that is what this guide will be using. In the future, if the game is updated to 5.7 or later versions, this guide will hopefully be updated as well.
@@ -11,6 +13,8 @@ Before starting work on a custom map, you will need Unreal Engine installed. Cur
 Unreal Engine download: https://www.unrealengine.com/en-US/download
 
 You will also need the Windows SDK: https://learn.microsoft.com/en-us/windows/apps/windows-sdk/downloads
+
+If using the mod menu option, you will need Mage's Mod Menu installed: See https://discord.com/channels/789935960904433694/1366173976509812756 or https://www.nexusmods.com/storrorparkourpro/mods/8 for instructions to install. Version 4 of Mage's Mod Menu from 08 Sep 2025 is currently compatible with the game.
 
 # Download the template
 
@@ -83,12 +87,23 @@ Don't forget to save!!! There is a spot at the bottom right of the editor that t
 
 ## Exporting The Mod
 In Unreal Editor, click Platforms -> Windows -> Package Project
+
+<img width="1325" height="818" alt="image" src="https://github.com/user-attachments/assets/b56a3160-e880-4288-9c5a-ff71beb76bff" />
+
 Select `Build` folder inside the project folder and wait for it to finish packaging.
+
+<img width="1022" height="594" alt="image" src="https://github.com/user-attachments/assets/f4c1305d-22c6-442e-a8bc-9d7a1fdf4653" />
+
 
 ## Applying The Mod
 * Go to `Build\Windows\StorrorParkourPro\Content\Paks\` folder inside your project folder
 * Copy all 3 `pakchunk4564-Windows.*` files to game's `STORRORParkourPRO\Content\Paks` folder, it's in `C:\Program Files (x86)\Steam\steamapps\common\STORROR Parkour Pro\` when installed on Steam
 * Rename `pakchunk4564-Windows.*` files to `YourModName_P.*` (`_P` suffix is important)
+* It should look like this:
+
+<img width="964" height="574" alt="image" src="https://github.com/user-attachments/assets/d771968a-80b7-4214-bd51-98511797dde9" />
+
+* Where `pakchunk4564-Windows` can be replaced by your mod's name, and `TheMightMages_ModMenu_V4_P` is the currently used mod menu. See https://discord.com/channels/789935960904433694/1366173976509812756 or https://www.nexusmods.com/storrorparkourpro/mods/8 for instructions to install. Version 4 of Mage's Mod Menu from 08 Sep 2025 is currently compatible with the game.
 * Open the game via Steam.
 * Play the game with your own map if you've replaced the default map.
 * If using the mod menu, place a session marker (D-Pad up) and then press ] on your keyboard to open the Mod Menu. Type the name of your map into the bar, and click on the OPEN button (pressing enter on keyboard will not work).
