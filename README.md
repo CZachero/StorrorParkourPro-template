@@ -18,7 +18,7 @@ If using the mod menu option, you will need Mage's Mod Menu installed: See https
 
 # Download the template
 
-There is a template to help you get started. The 5.6 template can be found at https://github.com/CZachero/StorrorParkourPro-template
+This template contains a couple different branches.
 
 ## Using Mod Menu (Recommended)
 If you want to use a mod menu to load your map, stay on the main branch and skip to "Download"
