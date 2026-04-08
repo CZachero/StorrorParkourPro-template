@@ -59,6 +59,7 @@ If you are using the mod menu, right click on Template in the Maps folder and se
 
 In the "Rename To" field, enter your map name and click Apply (NewMap is my example):
 <img width="738" height="663" alt="image" src="https://github.com/user-attachments/assets/84e0fd6a-8e7f-41de-9b25-952b4375ae8e" />
+
 *You do not need to enter anything else*
 
 ### Start Creating!
@@ -86,9 +87,11 @@ Use complex collission as simple for more complicated objects. Click the dropdow
 Don't forget to save!!! There is a spot at the bottom right of the editor that tells you if anything is unsaved.
 
 ## Exporting The Mod
-In Unreal Editor, click Platforms -> Windows -> Package Project
+In Unreal Editor, click Platforms -> Package Project -> Package Project
 
-<img width="1325" height="818" alt="image" src="https://github.com/user-attachments/assets/b56a3160-e880-4288-9c5a-ff71beb76bff" />
+Make sure Windows is selected.
+
+<img width="1392" height="768" alt="image" src="https://github.com/user-attachments/assets/f7aca780-6730-483a-9019-e80841f88ced" />
 
 Select `Build` folder inside the project folder and wait for it to finish packaging.
 
