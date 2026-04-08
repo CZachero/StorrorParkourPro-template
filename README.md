@@ -8,13 +8,13 @@ Another big shoutout to TheMightMage for his Mod Menu and his general work/help 
 
 # Prerequisites
 
-Before starting work on a custom map, you will need Unreal Engine installed. Currently, the game uses 5.6, and that is what this guide will be using. In the future, if the game is updated to 5.7 or later versions, this guide will hopefully be updated as well.
+Before starting work on a custom map, you will need Unreal Engine installed. Currently, the game uses 5.7, and that is what this guide will be using. In the future, if the game is updated to a later version, this guide will hopefully be updated as well.
 
 Unreal Engine download: https://www.unrealengine.com/en-US/download
 
 You will also need the Windows SDK: https://learn.microsoft.com/en-us/windows/apps/windows-sdk/downloads
 
-If using the mod menu option, you will need Mage's Mod Menu installed: See https://discord.com/channels/789935960904433694/1366173976509812756 or https://www.nexusmods.com/storrorparkourpro/mods/8 for instructions to install. Version 4 of Mage's Mod Menu from 08 Sep 2025 is currently compatible with the game.
+If using the mod menu option, you will need Mage's Mod Menu installed: See https://discord.com/channels/789935960904433694/1366173976509812756 or https://www.nexusmods.com/storrorparkourpro/mods/8 for instructions to install. The latest version titled TheMightMages ModMenu UE5.7 publushed on April 7th 2026 is compatible with this guide.
 
 # Download the template
 
@@ -103,7 +103,7 @@ Select `Build` folder inside the project folder and wait for it to finish packag
 
 <img width="964" height="574" alt="image" src="https://github.com/user-attachments/assets/d771968a-80b7-4214-bd51-98511797dde9" />
 
-* Where `pakchunk4564-Windows` can be replaced by your mod's name, and `TheMightMages_ModMenu_V4_P` is the currently used mod menu. See https://discord.com/channels/789935960904433694/1366173976509812756 or https://www.nexusmods.com/storrorparkourpro/mods/8 for instructions to install. Version 4 of Mage's Mod Menu from 08 Sep 2025 is currently compatible with the game.
+* Where `pakchunk4564-Windows` can be replaced by your mod's name, and `TheMightMagesModMenu_V5_2_P` is the currently used mod menu. See https://discord.com/channels/789935960904433694/1366173976509812756 or https://www.nexusmods.com/storrorparkourpro/mods/8 for instructions to install. TheMightMages ModMenu UE5.7 from 07 Apr 2026 is currently compatible with the game.
 * Open the game via Steam.
 * Play the game with your own map if you've replaced the default map.
 * If using the mod menu, place a session marker (D-Pad up) and then press ] on your keyboard to open the Mod Menu. Type the name of your map into the bar, and click on the OPEN button (pressing enter on keyboard will not work).
