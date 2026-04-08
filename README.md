@@ -101,7 +101,7 @@ Select `Build` folder inside the project folder and wait for it to finish packag
 * Rename `pakchunk4564-Windows.*` files to `YourModName_P.*` (`_P` suffix is important)
 * It should look like this:
 
-<img width="964" height="574" alt="image" src="https://github.com/user-attachments/assets/d771968a-80b7-4214-bd51-98511797dde9" />
+<img width="1020" height="492" alt="image" src="https://github.com/user-attachments/assets/32d150b6-a7b1-4bd1-96a2-bca08c59f26d" />
 
 * Where `pakchunk4564-Windows` can be replaced by your mod's name, and `TheMightMagesModMenu_V5_2_P` is the currently used mod menu. See https://discord.com/channels/789935960904433694/1366173976509812756 or https://www.nexusmods.com/storrorparkourpro/mods/8 for instructions to install. TheMightMages ModMenu UE5.7 from 07 Apr 2026 is currently compatible with the game.
 * Open the game via Steam.
